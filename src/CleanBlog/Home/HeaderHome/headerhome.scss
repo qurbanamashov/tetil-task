@@ -1,0 +1,37 @@
+.header_home{
+    width: 100%;
+    background-image: url("https://sb-clean-blog.startbootstrap.com/assets/img/home-bg.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -93px;
+    .header_color{
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.3);
+        height: 80vh;
+        .header_text{
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            padding:230px 10px 0 10px;
+            h1{
+                color: white;
+                font-size: 80px;
+            }
+            p{
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+}
+@media screen and (max-width:780px){
+    .header_home{
+        margin-top: 50px;
+        .header_color{
+            .header_text{
+                padding:180px 10px 0 10px;
+            }
+        }
+    }
+}

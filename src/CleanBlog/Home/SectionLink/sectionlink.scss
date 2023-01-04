@@ -1,0 +1,29 @@
+.sectionlink{
+    width: 100%;
+    background-color: white;
+    padding: 80px 0;
+    .sectionlink_width{
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 0 10px;
+        .link_form{
+            padding-bottom:40px;
+            a{
+                color: black;
+                display: flex;
+                flex-direction: column;
+                row-gap: 10px;
+                h2{
+                    font-size: 35px;
+                    font-weight: 700;
+                }
+                p{
+                    font-size: 27px;
+                }
+                &:hover{
+                 color: #0085a1;
+                }
+            }
+        }
+    }
+}
